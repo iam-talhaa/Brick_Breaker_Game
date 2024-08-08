@@ -1,3 +1,4 @@
+import 'package:brick_breaker_game/ui/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class _Brick_Breaker_GameState extends State<Brick_Breaker_Game> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: Homepage(),
     );
   }
 }
