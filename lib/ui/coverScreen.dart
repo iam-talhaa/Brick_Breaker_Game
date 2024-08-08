@@ -9,7 +9,7 @@ class CoverScreen extends StatelessWidget {
     return HasStartedGame
         ? Container()
         : Container(
-            alignment: Alignment(0, -0.2),
+            alignment: Alignment(0, -0.1),
             child: Text('Tap To play'),
           );
   }
