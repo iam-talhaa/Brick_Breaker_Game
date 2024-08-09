@@ -27,6 +27,7 @@ class _HomepageState extends State<Homepage> {
 
   @override
   Widget build(BuildContext context) {
+    print('object');
     return GestureDetector(
       onTap: StartGame,
       child: Scaffold(
