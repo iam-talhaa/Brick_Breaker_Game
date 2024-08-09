@@ -6,6 +6,7 @@ class CoverScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('object');
     return HasStartedGame
         ? Container()
         : Container(
