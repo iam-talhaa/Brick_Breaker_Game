@@ -13,6 +13,7 @@ class _MyballState extends State<Myball> {
   @override
   Widget build(BuildContext context) {
     print('object');
+    print('object');
     return Container(
       child: Container(
         height: 15,
